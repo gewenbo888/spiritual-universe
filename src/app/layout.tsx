@@ -19,6 +19,7 @@ export const metadata: Metadata = {
     languages: { en: "/", "zh-CN": "/", "x-default": "/" },
   },
   openGraph: {
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "Human Spiritual Universe · 人类精神宇宙 — The Atlas of Belief, Consciousness, Myth & Meaning: a bilingual exploration of belief systems, religions, philosophies, mythologies, mysticism and consciousness across 25 sections, an interconnected cosmic knowledge graph, and an AI cosmic guide" }],
     title: "Human Spiritual Universe · 人类精神宇宙",
     description:
       "The Atlas of Belief, Consciousness, Myth & Meaning — humanity's entire search for meaning, mapped as one interconnected cosmos.",
@@ -29,6 +30,7 @@ export const metadata: Metadata = {
     alternateLocale: ["zh_CN"],
   },
   twitter: {
+    images: ["/twitter-image.png"],
     card: "summary_large_image",
     title: "Human Spiritual Universe · 人类精神宇宙",
     description: "A bilingual atlas of belief, consciousness, myth & meaning across all human traditions.",
